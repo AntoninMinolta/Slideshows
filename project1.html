@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Slideshow</title>
+	<link rel="stylesheet" href="project1.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet"> 
+</head>
+<body>
+	
+<!-- 1.VERY SIMPLE AUTOMATIC SLIDESHOW USING MODULO OPERATOR -->
+<h1>1) simple automatic slideshow using modulo operator and transition effect</h1>
+<ul id="slides">
+    <li class="slide showing"></li>
+    <li class="slide"></li>
+    <li class="slide"></li>
+    <li class="slide"></li>
+    <li class="slide"></li>
+</ul>
+
+<!-- 2.SLIDESHOW WITH ARROWS, CAPTION TEXT AND NUMBERS -->
+<h1>2) onclick slideshow with arrows, caption text and numbers using loop and fade effect</h1>
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="https://source.unsplash.com/efwGCPFdIcM">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="https://source.unsplash.com/aZjw7xI3QAA">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="https://source.unsplash.com/M03OCZvYSxY">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<!-- 3. AUTOMATIC SLIDESHOW USING LOOP -->
+<h1>3) automatic slideshow using loop and fade effect</h1>
+<div class="slideshow-container">
+  <div class="mySlides2 fade">
+    <img src="https://source.unsplash.com/CQl3Y5bV6FA">
+  </div>
+
+  <div class="mySlides2 fade">
+    <img src="https://source.unsplash.com/c1fFv08N7qE">
+  </div>
+
+  <div class="mySlides2 fade">
+    <img src="https://source.unsplash.com/O6DUoIl6NWA">
+  </div>
+</div>
+
+
+<script src="project1.js"></script>	
+</body>
+</html>
